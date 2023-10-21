@@ -9,6 +9,10 @@
     font-family: 'Circular Std', sans-serif;
 }
 
+body{
+    background-color: #00081d;
+}
+
 #netflix-logo{
     width: 150px;
     height: 40px;
@@ -127,4 +131,61 @@ form{
     font-weight: 500;
     cursor: pointer;
 
+}
+
+
+#box-container {
+    background-color: red;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);;
+}
+
+.content-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-title {
+    font-family: 'Circular Std', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 3em;
+
+}
+
+.title-two{
+    color: white;
+    margin-top: 5px;
+    line-height: 20px;
+    font-size: 22px;
+}
+
+#shadow {
+    width: 80%;
+    height: 7px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+#tablet {
+    margin-bottom: 50px;
+}
+
+.container-space {
+    background-color: black;
+    width: 87%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 }
